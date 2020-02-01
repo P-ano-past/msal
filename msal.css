@@ -25,6 +25,10 @@
     background-color: transparent;
   }
   
+  p {
+    background-color: transparent;
+  }
+
   navbar {
     z-index: 999;
     background: linear-gradient(110deg, #3d3d3d 60%, #646464 60%);  
