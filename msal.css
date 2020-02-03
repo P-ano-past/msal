@@ -1,78 +1,74 @@
 
+
 * {
-    font-family: times-new-roman, ariel, georgia;
-    background-color: rgb(51, 51, 51);
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  a {
-    background-color: transparent;
-  }
+  font-family: times-new-roman, ariel, georgia;
+  background-color: rgb(51, 51, 51);
+  margin: 0px;
+  padding: 0px;
+}
 
-  a:hover {
-    text-decoration: underline;
-    background-color: transparent;
-  }
+a {
+  background-color: transparent;
+}
 
-  a:active {
-    color: #000000;
-    background-color: transparent;
-  }
+a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
 
-  a:visited {
-    color: rgb(150, 81, 3);
-    background-color: transparent;
-  }
-  
-  p {
-    background-color: transparent;
-  }
+a:active {
+  color: #000000;
+  background-color: transparent;
+}
 
-  navbar {
-    z-index: 999;
-    background: linear-gradient(110deg, #3d3d3d 60%, #646464 60%);  
-    position: fixed;
-    display: inline-flex;
-    width: 100%;
-    padding: 0px;
-    top: 0px;
-  }
+a:visited {
+  color: rgb(150, 81, 3);
+  background-color: transparent;
+}
 
-  navbar ul {
-    background-color: transparent;
-    margin: 0px;
-    padding: 0px;
-  }
+p {
+  background-color: transparent;
+}
 
-  navbar li {
-    color: rgb(150, 81, 3);
-    background-color: transparent;
-    display: inline-flex; 
-    align-items: flex-end;
-    list-style: none;
-    padding: 10px;
-    margin: 10px; 
-    border-left: thick double #818181;
-  }
+navbar {
+  z-index: 999;
+  background: linear-gradient(110deg, #3d3d3d 60%, #646464 60%);  
+  position: fixed;
+  display: inline-flex;
+  width: 100%;
+}
 
-  navbar li a {
-    background-color: transparent; 
-  }
+navbar ul {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
 
-  .logo {
-    background-color: transparent;
-    height: 50px;
-    width: 50px;
-    padding-top: 4px;
-    padding-left: 4px;
-  }
+navbar li {
+  color: rgb(150, 81, 3);
+  background-color: transparent;
+  display: inline-flex; 
+  align-items: flex-end;
+  list-style: none;
+  padding: 10px;
+  margin: 10px; 
+  border-left: thick double #818181;
+}
+
+navbar li a {
+  background-color: transparent; 
+}
+
+.logo {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
 
   .title-card {
     background-color: transparent;
-    font-size: 25px;
-    margin: 0px;
-    padding: 0px;
   }
   /* greeting container */
   .greet-text {
@@ -81,8 +77,8 @@
     position: absolute;
     top: 100px;
     left: 25px;
-    margin: 25px 25px 25px 25px;
-    padding: 50px 50px 50px 50px; 
+    margin: 100px 25px 0px 25px;
+    padding: 100px 50px 0px 50px; 
     display: flex;
     flex-direction: column;
   }
@@ -91,15 +87,16 @@
     background: transparent;
     width: 50%;
     height: 50%;
-    margin: 0;
+    margin-right: 197px;
     padding-bottom: 20px;
+    padding-right: 20px;
   }
 /* text "web developer" */
   .greeting-sub {
     background: transparent;
-    margin: 0;
     padding-top: 20px;
-    padding-right: 0rem;
+    padding-right: 1px;
+    margin-right: 50%;
     border-top: solid;
     border-color: rgb(150, 81, 3);
   }
@@ -124,7 +121,7 @@
     padding: 10px 30px;
     background-color: rgb(218, 218, 218);
     z-index: 5;
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: 4px 4px 25px;
     display: grid;
     grid-auto-rows: auto;
@@ -140,6 +137,7 @@
     margin: 10px 0px;
     padding: 10px 0px;
     background: transparent;
+    display: grid;
   }
   
   .content-subtitle {
@@ -158,6 +156,7 @@
   #c1 {
     grid-column: 2 / span 6;
     grid-row: 1;
+
   }
 
   #c1-text {
@@ -166,6 +165,7 @@
     grid-row: row 1; 
     margin: 20px;
     padding: 2px; 
+    float: left;
   }
   
   #c2 {
@@ -177,7 +177,10 @@
     grid-column: 1;
     grid-row: row 1;
     border-radius: 100%;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     box-shadow: 4px 4px 25px;
+    /* padding: 10px; */
+    margin: 25px;
+    float: left;
   }
